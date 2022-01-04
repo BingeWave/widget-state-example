@@ -1,0 +1,25 @@
+<div class="card text-black">
+  <div class="card-body">
+    	<h3>State Store Example</h3>
+    	<div class="form-group">
+          	<label>Key</label>
+          	<input type="text" class="form-control" id="{{namespace}}_key_store" />
+    	</div>
+    	<div class="form-group">
+          	<label>Value</label>
+          	<input type="text" class="form-control" id="{{namespace}}_value_store" />
+    	</div>
+    	<div class="form-group">
+          	<button type="button" class="btn btn-success" onclick="{{namespace}}.storeData() ">Store</button>
+    	</div>
+    	<hr/>
+    	<h3>State Retrieve</h3>
+    	<div class="form-group">
+          	<label>Key</label>
+          	<input type="text" class="form-control" id="{{namespace}}_key_retrieve" />
+    	</div>
+    	<div class="form-group">
+          	<button type="button" class="btn btn-success" onclick="{{namespace}}.retrieveData() ">Retrieve</button>
+    	</div>
+  </div>
+</div>
